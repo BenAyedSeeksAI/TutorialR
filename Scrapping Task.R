@@ -28,4 +28,5 @@ for (elem in companyLinks){
     urls <- append(urls, paste(url2,elem, sep=""))
 }
 TopappsDF$urls <-urls
+library('xlsx')
 
