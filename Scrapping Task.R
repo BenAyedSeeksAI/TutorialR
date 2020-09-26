@@ -29,4 +29,5 @@ for (elem in companyLinks){
 }
 TopappsDF$urls <-urls
 library('xlsx')
-
+write.xlsx(TopappsDF, 'C:/Users/MFBA/Documents1/R programming/TutorialR/TopgoogleApps.xlsx', sheetName = "Playstore", 
+           col.names = TRUE, row.names = TRUE, append = FALSE)
